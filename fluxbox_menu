@@ -1,0 +1,67 @@
+# glitch's custom fluxbox menu
+[begin] (Fluxbox-1.3.5)
+[encoding] {UTF-8}
+  [exec]  (Terminal)              {xfce4-terminal}
+  [exec]  (Firefox)               {firefox}
+  [exec]  (Dillo)                 {dillo}
+  [exec]  () {}
+
+  [submenu] (Media)
+    [exec]  (The GIMP)            {gimp}
+    [exec]  (XMMS)                {xmms}
+    [exec]  (VLC)                 {vlc}
+    [exec]  (gThumb Image Viewer) {gthumb}
+    [exec]  (XSane)               {xsane}
+  [end]
+
+  [submenu] (Editors)
+    [exec]  (nano)                {xfce4-terminal -e nano}
+    [exec]  (vim)                 {xfce4-terminal -e vim}
+    [exec]  (ghex)                {ghex}
+  [end]
+
+  [submenu] (Development)
+    [exec]  (GNUsim8085)          {gnusim8085}
+  [end]
+
+  [submenu] (Office)
+    [exec]  (evince)              {evince}
+    [exec]  (gnumeric)            {gnumeric}
+    [exec]  (AbiWord)             {abiword}
+    [exec]  (Dia)                 {dia}
+  [end]
+
+  [submenu] (System Tools)
+    [exec]  (RandR Settings)      {arandr}
+    [exec]  (SMART Monitor)       {gksu gsmartcontrol}
+    [exec]  (top)                 {xfce4-terminal -e top}
+  [end]
+
+  [submenu] (Fluxbox menu)
+    [config] (Configure)
+    
+    [submenu] (System Styles)     {Choose a style...}
+      [stylesdir] (/usr/share/fluxbox/styles)
+    [end]
+    
+    [submenu] (User Styles)       {Choose a style...}
+      [stylesdir] (~/.fluxbox/styles)
+    [end]
+    
+    [workspaces] (Workspace List)
+
+    [submenu] (Tools)
+      [exec] (Run)                {fbrun}
+      [exec] (Regen Menu)         {fluxbox-generate_menu}
+    [end]
+    
+    [commanddialog] (Fluxbox Command)
+    [reconfig] (Reload config)
+    [restart] (Restart)
+    [exec] (About)                {(fluxbox -v; fluxbox -info | sed 1d) | xmessage -file - -center}
+    [separator]
+    [exit] (Exit)
+  [end]
+
+[endencoding]
+[end]
