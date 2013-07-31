@@ -3,7 +3,7 @@ Here are the configuration files I use:
 bashrc
 ------
 
-- symlink to `~/.bashrc`
+- symlink to `~/.bashrc` (my `.bash_profile` sources `.bashrc` by default)
 - activate rvm if present
 - show the current git branch if `pwd` is part of a git project
 
