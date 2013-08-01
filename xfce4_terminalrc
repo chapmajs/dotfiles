@@ -12,7 +12,6 @@ MiscMouseAutohide=FALSE
 MiscToolbarsDefault=FALSE
 MiscConfirmClose=TRUE
 MiscCycleTabs=TRUE
-MiscTabCloseButtons=TRUE
 MiscTabCloseMiddleClick=TRUE
 MiscTabPosition=GTK_POS_TOP
 MiscHighlightUrls=TRUE
