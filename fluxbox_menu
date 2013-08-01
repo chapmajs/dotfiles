@@ -3,6 +3,7 @@
 [encoding] {UTF-8}
   [exec]  (Terminal)              {xfce4-terminal}
   [exec]  (Firefox)               {firefox}
+  [exec]  (VirtualBox)            {virtualbox}
   [exec]  (Dillo)                 {dillo}
   [exec]  () {}
 
