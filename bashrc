@@ -5,7 +5,13 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-alias ls='ls --color=auto'
+# alias `ls` for color mode
+if ls --color=auto / >/dev/null 2>&1
+then
+  alias ls='ls --color=auto' # GNU ls
+else
+  alias ls='ls -G' # BSD ls
+fi
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
