@@ -7,6 +7,8 @@ bashrc
 - activate rvm if present
 - show the current git branch if `pwd` is part of a git project
 
+Note: depending on your system configuration, you may need to account for PS1 when using `su` or `sudo`. I've had to deal with a persistent PS1 with CentOS and Slackware. A quick solution is to provide a `.bash_profile` and `.bashrc` for root that reassigns PS1.
+
 fluxbox_menu
 ------------
 
