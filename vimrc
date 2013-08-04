@@ -2,8 +2,6 @@ syntax on
 set wrap
 set linebreak
 set nolist
-set ts=2
-set expandtab
 colorscheme elflord
 
 map <silent> <Up> gk
@@ -18,3 +16,7 @@ imap <silent> <End> <C-o>g<End>
 setlocal display+=lastline
 
 filetype indent on
+set expandtab
+set ts=2
+set shiftwidth=2
+set softtabstop=2
