@@ -16,3 +16,5 @@ map <silent> <End> g<End>
 imap <silent> <End> <C-o>g<End>
 
 setlocal display+=lastline
+
+filetype indent on
