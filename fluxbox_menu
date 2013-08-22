@@ -23,6 +23,7 @@
 
   [submenu] (Development)
     [exec]  (GNUsim8085)          {gnusim8085}
+    [exec]  (MPLAB X)             {mplab_ide}
   [end]
 
   [submenu] (Office)
