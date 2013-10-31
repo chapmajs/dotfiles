@@ -28,3 +28,9 @@ xfce4_terminalrc
 
 - symlink to `~/.config/xfce4/terminal/terminalrc`
 - turn off close "X" icon in tabs
+
+tmux.conf
+---------
+
+- symlink to `~/.tmux.conf`
+- turn off automatic window title updates (lessens CPU load)
