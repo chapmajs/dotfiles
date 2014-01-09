@@ -34,6 +34,7 @@
   [end]
 
   [submenu] (System Tools)
+    [exec]  (GTK Appearance)      {lxappearance}
     [exec]  (RandR Settings)      {arandr}
     [exec]  (SMART Monitor)       {gksu gsmartcontrol}
     [exec]  (top)                 {xfce4-terminal -e top}
