@@ -15,6 +15,7 @@
     [exec]  (gThumb Image Viewer) {gthumb}
     [exec]  (XSane)               {xsane}
     [exec]  (GRip)                {grip}
+    [exec]  (Audacity)            {audacity}
   [end]
 
   [submenu] (Editors)
