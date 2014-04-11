@@ -27,6 +27,7 @@
   [submenu] (Development)
     [exec]  (GNUsim8085)          {gnusim8085}
     [exec]  (MPLAB X)             {mplab_ide}
+    [exec]  (Eagle CAD)           {eagle}
   [end]
 
   [submenu] (Office)
