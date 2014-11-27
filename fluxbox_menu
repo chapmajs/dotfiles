@@ -2,6 +2,7 @@
 [begin] (Fluxbox-1.3.5)
 [encoding] {UTF-8}
   [exec]  (Terminal)              {xfce4-terminal}
+  [exec]  (st)                    {st}
   [exec]  (Firefox)               {firefox}
   [exec]  (Sylpheed)              {sylpheed}
   [exec]  (VirtualBox)            {virtualbox}
