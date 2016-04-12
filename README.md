@@ -34,3 +34,11 @@ tmux.conf
 
 - symlink to `~/.tmux.conf`
 - turn off automatic window title updates (lessens CPU load)
+
+Default (Linux).sublime-keymap
+------------------------------
+
+- symlink to `~/.config/sublime-text-3/Packages/User/Default\ \(Linux\).sublime-keymap`
+- `CTRL + T` open in project (was: transpose)
+- `SHIFT + INS` paste from selection (default X11 behavior)
+- `CTRL + ALT + UP` and `CTRL + ALT + DOWN` multi-cursor selection

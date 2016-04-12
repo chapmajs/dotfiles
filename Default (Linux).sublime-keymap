@@ -1,0 +1,7 @@
+// Personal keybindings for Sublime Text 3 on Linux
+[
+	{ "keys": ["ctrl+t"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+	{ "keys": ["shift+insert"], "command": "paste", "args": {"clipboard": "selection"} },
+	{ "keys": ["ctrl+alt+up"], "command": "select_lines", "args": {"forward": false} },
+	{ "keys": ["ctrl+alt+down"], "command": "select_lines", "args": {"forward": true} },
+]
