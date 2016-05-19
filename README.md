@@ -42,3 +42,9 @@ Default (Linux).sublime-keymap
 - `CTRL + T` open in project (was: transpose)
 - `SHIFT + INS` paste from selection (default X11 behavior)
 - `CTRL + ALT + UP` and `CTRL + ALT + DOWN` multi-cursor selection
+
+i3status.conf
+-------------
+
+- symlink to `~/.i3status.conf`
+- provides eth0 IP, ipv6, sda free space, load, localtime
