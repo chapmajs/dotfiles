@@ -13,6 +13,14 @@ else
   alias ls='ls -G' # BSD ls
 fi
 
+which xdotool >/dev/null 2>&1
+if [ "$?" = "0" ]
+then
+	alias rename-window='xdotool selectwindow set_window --name'
+else
+	alias rename-window='echo "xdotool not found"'
+fi
+
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 function parse_git_branch() {
