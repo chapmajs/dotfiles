@@ -8,6 +8,8 @@ bashrc
 - show the current git branch if `pwd` is part of a git project
 - colorize `ls` if available
 - set up the `rename-window` alias if `xdotool` is installed
+- tell `less` to use colors (`$LESS` is already set in Slackware installs, will break e.g. `git diff`)
+- `tput smkx` to enable terminal numpad (required for proper `DEL` operation in `st`)
 
 Note: depending on your system configuration, you may need to account for PS1 when using `su` or `sudo`. I've had to deal with a persistent PS1 with CentOS and Slackware. A quick solution is to provide a `.bash_profile` and `.bashrc` for root that reassigns PS1.
 
@@ -36,6 +38,8 @@ tmux.conf
 
 - symlink to `~/.tmux.conf`
 - turn off automatic window title updates (lessens CPU load)
+- Combo + r to reload config
+- Set TERM to 'tmux' (supported in 2.1+)
 
 Default (Linux).sublime-keymap
 ------------------------------
@@ -50,3 +54,8 @@ i3status.conf
 
 - symlink to `~/.i3status.conf`
 - provides eth0 IP, ipv6, sda free space, load, localtime
+
+st patches
+----------
+
+- patch config.def.h for Terminus font
