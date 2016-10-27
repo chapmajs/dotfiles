@@ -30,3 +30,9 @@ function parse_git_branch() {
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
 PS1="[\u@\h \W] \$(parse_git_branch)\$ "
+
+# Tell `less` to use colors, have verbose prompt
+LESS='-M -R'
+
+# Fix delete for `bash`, `irssi`, et c. in `st`
+tput smkx
