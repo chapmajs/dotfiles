@@ -49,6 +49,15 @@ Default (Linux).sublime-keymap
 - `SHIFT + INS` paste from selection (default X11 behavior)
 - `CTRL + ALT + UP` and `CTRL + ALT + DOWN` multi-cursor selection
 
+Preferences.sublime-settings
+----------------------------
+
+User preferences for Sublime Text 3:
+
+- symlink to `~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings
+- set font to Terminus 12pt
+- set DPI scaling to 1.2 for 4K display
+
 i3status.conf
 -------------
 
