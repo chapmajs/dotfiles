@@ -68,3 +68,8 @@ st patches
 ----------
 
 - patch config.def.h for Terminus font
+
+irssi
+-----
+
+Currently this directory contains themes for irssi.
