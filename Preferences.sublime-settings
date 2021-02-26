@@ -1,5 +1,9 @@
 {
-	"dpi_scale": 1.2,
 	"font_face": "Terminus",
-	"font_size": 12
+	"font_size": 15,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"show_definitions": false
 }
