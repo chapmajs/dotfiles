@@ -1,0 +1,17 @@
+# Root's .bashrc
+#
+# Drop this in root's home to prevent user .bashrc from causing issues
+# when we `su`
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+# alias `ls` for color mode
+if ls --color=auto / >/dev/null 2>&1
+then
+  alias ls='ls --color=auto' # GNU ls
+else
+  alias ls='ls -G' # BSD ls
+fi
+
+PS1="[\u@\h \W] # "

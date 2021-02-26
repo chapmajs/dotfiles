@@ -13,6 +13,11 @@ bashrc
 
 Note: depending on your system configuration, you may need to account for PS1 when using `su` or `sudo`. I've had to deal with a persistent PS1 with CentOS and Slackware. A quick solution is to provide a `.bash_profile` and `.bashrc` for root that reassigns PS1.
 
+root_bashrc
+-----------
+
+As mentioned above, this is for Slackware, etc. where PS1 is persistent when you `su`. Drop it in `~root/.bashrc`. Probably shouldn't symlink root's `bashrc` into a git project!
+
 fluxbox_menu
 ------------
 
