@@ -1,0 +1,20 @@
+# Korn Shell startup script for qube2.glitchworks.net
+
+# Set up short hostname
+if [ -z "$HOSTNAME" ]; then
+	HOSTNAME=`hostname -s`
+	export HOSTNAME
+fi
+
+# Discipline function for short home path, used in PS1
+function SHORT_HOME {
+	if [ "${PWD}" = "${HOME}" ]
+	then
+		print "~"
+	else
+		print "${PWD##*/}"
+	fi
+}
+
+PS1='${HOSTNAME}:`SHORT_HOME` \$ '
+

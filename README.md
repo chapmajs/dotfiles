@@ -18,6 +18,16 @@ root_bashrc
 
 As mentioned above, this is for Slackware, etc. where PS1 is persistent when you `su`. Drop it in `~root/.bashrc`. Probably shouldn't symlink root's `bashrc` into a git project!
 
+kshrc_qube2
+-----------
+
+Korn Shell startup file from [qube2.glitchworks.net](http://qube2.glitchworks.net/). Symlink to `~/.kshrc`.
+
+- Provides `$HOSTNAME` as the host portion of the FQDN
+- `SHORT_HOME` function to return the last path element, or `~` if in `$HOME`
+
+This kshrc is intended for the Public Domain Korn Shell, which is mostly ksh88 and lacks most of the ksh93 features. Used on NetBSD/cobalt.
+
 fluxbox_menu
 ------------
 
